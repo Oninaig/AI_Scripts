@@ -39,4 +39,4 @@ delay(){
 }
 
 
-startServices diffusion diffusion.sh textgen textgen.sh stextras sillyextra.sh sillytavern sillystart.sh influx influx.sh telegraf telegraf.sh
+startServices diffusion diffusion.sh textgen textgen.sh stextras sillyextra.sh sillytavern silly.sh influx influx.sh telegraf telegraf.sh
