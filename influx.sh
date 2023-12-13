@@ -1,0 +1,1 @@
+screen -dmS influx sh -c 'influxd --http-bind-address=:8088; exec bash'

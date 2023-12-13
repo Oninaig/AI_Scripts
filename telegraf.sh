@@ -1,0 +1,1 @@
+screen -dmS telegraf sh -c 'telegraf; exec bash'

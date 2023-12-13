@@ -1,0 +1,3 @@
+#start sillytavern extras
+echo "Starting Silly Tavern extras server..."
+screen -dmS stextras bash && screen -S stextras -p 0 -X stuff "conda activate extras^M" && screen -S stextras -p 0 -X stuff "cd ~/llm/sillyextras/SillyTavern-extras && python server.py --enable-modules=chromadb,sd,classify,rvc,summarize,coqui-tts,caption --summarization-model=pszemraj/led-large-book-summary --classification-model=joeddav/distilbert-base-uncased-go-emotions-student --listen --sd-remote --sd-remote-host 192.168.1.10 --sd-remote-port 7860^M"
